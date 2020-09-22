@@ -30,6 +30,6 @@ end
 def find_the_cheese(diary)
   cheese_types = ["cheddar", "gouda", "camembert"]
   diary.select do |cheese_types|
-  puts diary.include?("swiss")
+  diary.include?("swiss")
   end
 end
